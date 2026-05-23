@@ -1,0 +1,9 @@
+# Copy this file to .github/CODEOWNERS in each org repo.
+# Syntax reference: https://docs.github.com/articles/about-code-owners
+
+# Default reviewer for everything in the repo.
+*       @Muzammil-crypto
+
+# TODO: add @<sufyan-github-username> as a co-reviewer once he's added to the org.
+# Example once filled in:
+# *       @Muzammil-crypto @sufyan-github-username
