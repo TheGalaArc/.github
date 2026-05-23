@@ -1,5 +1,10 @@
 # Copy this file to .github/CODEOWNERS in each org repo.
 # Syntax reference: https://docs.github.com/articles/about-code-owners
+#
+# Prerequisite: the @TheGalaArc/thegalaengineers team must have at least
+# write access to the target repo, or GitHub will silently ignore the
+# CODEOWNERS rule. Verify with:
+#   gh api orgs/TheGalaArc/teams/thegalaengineers/repos | jq '.[].full_name'
 
-# Default reviewers for everything in the repo.
-*       @Muzammil-crypto @MSafyan @Qurat-ul-ainnn
+# Default reviewers: tracks team membership at @TheGalaArc/thegalaengineers.
+*       @TheGalaArc/thegalaengineers
